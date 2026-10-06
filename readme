@@ -1,0 +1,169 @@
+NotesFinder – OCR Application
+
+Project Overview
+
+NotesFinder is a web-based OCR (Optical Character Recognition) application developed using Python and Streamlit. The application allows users to upload an image containing text and automatically extract the text from the image.
+
+The project is designed to make it easier to convert handwritten or printed notes available in image format into editable digital text.
+
+Objectives
+
+- To extract text from images using OCR technology.
+- To provide a simple and user-friendly web interface.
+- To reduce the need for manual typing of text from images.
+- To convert image-based notes into editable digital text.
+- To provide a lightweight and accessible OCR solution.
+
+Features
+
+- Upload images through a web interface.
+- Extract text automatically from uploaded images.
+- Display the extracted text clearly.
+- Simple and easy-to-use Streamlit interface.
+- Supports common image formats.
+- Can be deployed as a web application.
+
+Technologies Used
+
+Technology| Purpose
+Python| Application development
+Streamlit| Web interface
+OpenCV| Image processing
+OCR| Text extraction
+NumPy| Image and data processing
+
+Project Structure
+
+NotesFinder/
+│
+├── app.py
+├── ocr_utils.py
+├── requirements.txt
+├── README.md
+└── sample/
+    └── sample_image.jpg
+
+File Description
+
+- "app.py" – Main Streamlit application.
+- "ocr_utils.py" – Contains the OCR-related functions used for text extraction.
+- "requirements.txt" – Contains the required Python libraries.
+- "README.md" – Project documentation.
+- "sample/" – Contains sample images for testing the application.
+
+Installation
+
+1. Clone the Repository
+
+git clone https://github.com/your-username/NotesFinder.git
+
+2. Navigate to the Project Folder
+
+cd NotesFinder
+
+3. Install Required Dependencies
+
+pip install -r requirements.txt
+
+Running the Application
+
+Start the Streamlit application using:
+
+streamlit run app.py
+
+The application will open in your web browser.
+
+How to Use
+
+1. Open the NotesFinder application.
+2. Upload an image containing text.
+3. The application processes the uploaded image.
+4. OCR extracts the text from the image.
+5. The extracted text is displayed on the screen.
+6. The user can copy the extracted text for further use.
+
+Application Workflow
+
+User
+  |
+  v
+Upload Image
+  |
+  v
+Image Processing
+  |
+  v
+OCR Text Extraction
+  |
+  v
+Extracted Text
+  |
+  v
+Display in Streamlit
+
+Requirements
+
+Make sure the following are installed:
+
+- Python 3.x
+- pip
+- Required Python packages listed in "requirements.txt"
+
+Install all dependencies using:
+
+pip install -r requirements.txt
+
+Deployment
+
+The application can be deployed using cloud platforms such as Render.
+
+The repository should contain the following files:
+
+app.py
+ocr_utils.py
+requirements.txt
+README.md
+
+The deployment platform installs the required dependencies from "requirements.txt" and runs the Streamlit application.
+
+Future Enhancements
+
+The project can be further improved by adding:
+
+- Support for multiple image uploads.
+- Download extracted text as a ".txt" file.
+- PDF document support.
+- Improved handwritten text recognition.
+- Text editing functionality.
+- Search functionality for extracted notes.
+- Support for multiple languages.
+- Improved image preprocessing for better OCR accuracy.
+
+Advantages
+
+- Simple and user-friendly interface.
+- Reduces manual typing.
+- Fast text extraction from images.
+- Easy to deploy.
+- Useful for digitizing study notes and documents.
+- Can be extended with additional OCR features.
+
+Use Cases
+
+NotesFinder can be useful for:
+
+- Digitizing handwritten or printed study notes.
+- Extracting text from educational materials.
+- Converting image-based documents into editable text.
+- Quickly copying text from photographs of notes.
+- Creating digital versions of physical documents.
+
+Author
+
+Vaishnavi
+
+B.Sc. Artificial Intelligence
+
+License
+
+This project is created for educational and academic purposes.
